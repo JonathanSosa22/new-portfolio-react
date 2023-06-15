@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+li {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  list-style: none;
+}
+
+.container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 95%;
+  }
+  .home,
+  .about,
+  .skills,
+  .portfolio,
+  .contact {
+    margin-top: 2.5rem;
+  }
+}
+
+/* Dark Mode */
+
+.dark-mode {
+  background-color: #243c5a;
+  color: #ffffff;
+}
+
+.container_dark_mode_btn {
+  width: 44px;
+  padding: 2px;
+  border: 1.5px solid #53c28b70;
+  border-radius: 30px;
+}
+
+.dark_mode_btn {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  position: relative;
+}
+
+.icon_sun {
+  color: yellow;
+}
+
+.icon_sun,
+.icon_moon {
+  font-size: 12px;
+  margin: 0 auto;
+  padding: 2.5px;
+}
+
+.ball {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: green;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.dark-mode .ball {
+  right: 0;
+  left: auto;
+}
