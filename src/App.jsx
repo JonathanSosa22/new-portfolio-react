@@ -2,6 +2,7 @@ import { HashRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import { Home, About, Contact, Portfolio, Skills } from "./pages";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
+          <Footer />
         </div>
       </HashRouter>
     </>
