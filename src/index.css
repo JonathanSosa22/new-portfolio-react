@@ -1,7 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
 }
 
 a,
@@ -38,7 +44,12 @@ li {
 /* Dark Mode */
 
 .dark-mode {
-  background-color: #243c5a;
+  /* background-color: #243c5a; */
+  background: linear-gradient(
+    90deg,
+    hsl(23, 83%, 54%) 0%,
+    hsl(9, 92%, 54%) 100%
+  );
   color: #ffffff;
 }
 

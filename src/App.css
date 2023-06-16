@@ -16,15 +16,15 @@ nav {
 
 .nav-logo span {
   position: relative;
-  right: 2rem;
-  font-size: 1.9rem;
+  right: 1.96rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 .nav-logo p {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   position: relative;
-  right: 1.8rem;
+  right: 1.65rem;
 }
 
 .nav-logo img {
@@ -35,14 +35,14 @@ nav {
 .nav-content {
   display: flex;
   align-items: center;
-  gap: 0.6rem;
 }
 
 .nav-content a {
+  font-size: 1.3rem;
   padding: 1rem;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 860px) {
   .nav-content ul {
     width: 100%;
     position: absolute;
@@ -51,7 +51,8 @@ nav {
     text-align: center;
   }
   .nav-content a {
-    padding: 0.5rem;
+    padding: 0.28rem;
+    font-size: 1.05rem;
   }
 }
 
