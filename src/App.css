@@ -52,7 +52,13 @@ nav {
   }
   .nav-content a {
     padding: 0.28rem;
-    font-size: 1.05rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 362px) {
+  .nav-content a {
+    font-size: 1rem;
   }
 }
 
